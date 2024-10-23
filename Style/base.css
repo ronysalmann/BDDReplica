@@ -1,0 +1,80 @@
+* {
+    font-family: "TheMixBlack", Sans-serif;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+@font-face {
+    font-family: TheMixBlack;
+    src: url(../Media/beirutdigitaldistrict.com-1729620180212/TheMixBlack-Caps.otf);
+  }
+
+header{
+    top: 0;
+    position: sticky;
+    width: 100%;
+    background-color: rgba(0,0,0,0.8);
+    z-index: 1;
+}
+nav {
+    width: 100%;
+    height: 80px;
+}
+header ul {
+    list-style-type: none;
+    margin: 20px;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  header img{
+    margin-top: -10px;
+  }
+  
+ header ul li {
+    float: left;
+  }
+ header ul li a{
+    padding:10px 10px 10px 10px;
+  }
+ header ul li a::after {
+    content: "  v";
+  }
+ header ul li a:hover{
+    background-color: rgba(255,255,255,0.3);
+  }
+  
+ header ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding-right: 20px;
+    text-decoration: none;
+    font-family: "TheMixBlack-Caps", Sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  button {
+    background-color: blue;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+  }
+  footer{
+    background-color: #36454F;
+    width: 100%;
+    height: 40vh;
+    align-content: center;
+  }
+  footer h6{
+    color: gray;
+  }
+  footer p{
+    font-size: medium;
+    color: white;
+  }

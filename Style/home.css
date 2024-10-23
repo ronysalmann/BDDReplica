@@ -1,0 +1,84 @@
+.hero-section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url("../Media/beirutdigitaldistrict.com-1729620180212/slide1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: whitesmoke;
+    font-size:xx-large ;
+}
+.foundation-section{
+    background-color: lightgrey;
+    width: 100%;
+    height: 100vh;
+}
+.foundation-section-card{
+    background-color: white;
+    width: 15%;
+    height: 80vh;
+    padding: 10px;
+
+}
+.foundation-section-card:hover{
+    background-color: lightgray;
+    transition: 0.3s;
+}
+.foundation-section-cards p{
+    color: grey;
+    font-weight: normal;
+}
+.explore-section{
+    background: url("../Media/beirutdigitaldistrict.com-1729620180212/Shared-Space-at-BDD.png"),rgba(0,0,0,0.6);;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 80vh;
+    color: white;
+}
+.community-section{
+    width: 100%;
+    height: 100vh;
+}
+.community-section img{
+    width: 30%;
+    height: auto;
+}
+.community-section-content-cards{
+    width: 15%;
+    height: 70vh;
+    background-image: url("../Media/beirutdigitaldistrict.com-1729620180212/bg-icon.png") ;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+.community-section h3{
+    color: grey;
+    font-weight: normal;
+}
+
+.community-section-content-cards ul li {
+    color: grey;
+    font-weight: normal;
+}
+.bdd-section{
+    background-image: url("../Media/beirutdigitaldistrict.com-1729620180212/parallax-light.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 60vh;
+    text-align: center;
+}
+.bdd-section-cards{
+    width: 15%;
+}
+.community-words-section{
+    width: 100%;
+    height: 50vh;
+    
+
+}
